@@ -14,8 +14,8 @@ npm i @vue-spark/permission
 
 ```ts
 // main.ts
-import { createApp } from 'vue'
 import { createPermission } from '@vue-spark/permission'
+import { createApp } from 'vue'
 
 createApp().use(createPermission())
 ```
