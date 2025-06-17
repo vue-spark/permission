@@ -2,7 +2,7 @@
 
 Lightweight Vue permission management plugin for component-level access control.
 
-[English Document](https://github.com/vue-spark/permission/blob/dev/README.md)
+[中文文档](https://github.com/vue-spark/permission/blob/main/README.zh-CN.md)
 
 ## Installation
 

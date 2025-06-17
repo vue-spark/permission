@@ -2,7 +2,7 @@
 
 轻量级 Vue3 权限管理插件，专注于组件级权限控制。
 
-[English Document](https://github.com/vue-spark/permission/blob/dev/README.zh-CN.md)
+[English Document](https://github.com/vue-spark/permission/blob/main/README.md)
 
 ## 安装
 
