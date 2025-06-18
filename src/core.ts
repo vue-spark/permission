@@ -1,4 +1,4 @@
-import { type App, shallowRef, triggerRef } from 'vue'
+import { type App, type ShallowReactive, shallowRef, triggerRef } from 'vue'
 import { permissionKey } from './injection'
 import { ensureArray } from './utils'
 
@@ -10,7 +10,7 @@ export type PermissionCode = PermissionCodeAll | (string & {})
 export type PermissionOperator = 'or' | 'and'
 
 export interface Permission {
-  get codes(): readonly string[]
+  get codes(): ShallowReactive<readonly string[]>
   add: (codes: PermissionCode | PermissionCode[]) => void
   set: (codes: PermissionCode | PermissionCode[]) => void
   clear: () => void
