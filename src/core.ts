@@ -68,3 +68,9 @@ export function createPermission(options: PermissionOptions = {}): Permission {
   }
   return permission
 }
+
+declare module 'vue' {
+  interface ComponentCustomProperties {
+    $permission: Permission
+  }
+}
