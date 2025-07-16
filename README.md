@@ -1,5 +1,9 @@
 # @vue-spark/permission
 
+> Starting from `v1.0`, `@vue-spark/permission` is only an alias for [@vue-spark/app-helpers/permission](https://github.com/vue-spark/app-helpers/tree/main/src/permission).
+>
+> Issues should be reported in [vue-spark/app-helpers](https://github.com/vue-spark/app-helpers)!
+
 Lightweight Vue permission management plugin for component-level access control.
 
 [中文文档](https://github.com/vue-spark/permission/blob/main/README.zh-CN.md)

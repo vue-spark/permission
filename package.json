@@ -14,7 +14,10 @@
   "bugs": {
     "url": "https://github.com/vue-spark/permission/issues"
   },
-  "keywords": ["permission", "app-helpers"],
+  "keywords": [
+    "permission",
+    "app-helpers"
+  ],
   "exports": {
     ".": "./dist/index.js",
     "./package.json": "./package.json"
@@ -40,8 +43,8 @@
     "release": "bumpp && pnpm publish",
     "prepublishOnly": "pnpm run build"
   },
-  "peerDependencies": {
-    "vue": "^3.5.0"
+  "dependencies": {
+    "@vue-spark/app-helpers": "^0.1.0"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^4.14.1",

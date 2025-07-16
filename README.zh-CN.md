@@ -1,5 +1,9 @@
 # @vue-spark/permission
 
+> 从 `v1.0` 开始，`@vue-spark/permission` 仅作为 [@vue-spark/app-helpers/permission](https://github.com/vue-spark/app-helpers/tree/main/src/permission) 的别名。
+>
+> 问题应该在 [vue-spark/app-helpers](https://github.com/vue-spark/app-helpers) 中进行报告！
+
 轻量级 Vue3 权限管理插件，专注于组件级权限控制。
 
 [English Document](https://github.com/vue-spark/permission/blob/main/README.md)
@@ -67,7 +71,10 @@ interface Permission {
 通过组件 `<PermissionGuard />` 来进行权限控制。
 
 ```html
-<script setup lang="ts">
+<script
+  setup
+  lang="ts"
+>
   import { usePermission, PermissionGuard } from '@vue-spark/permission'
 
   const permission = usePermission()
@@ -76,7 +83,10 @@ interface Permission {
 
 <template>
   <!-- 仅当用户有权限时，才显示按钮 -->
-  <PermissionGuard :codes="['list:delete']" op="or">
+  <PermissionGuard
+    :codes="['list:delete']"
+    op="or"
+  >
     <button>删除</button>
   </PermissionGuard>
 </template>
@@ -87,7 +97,10 @@ interface Permission {
 通过 `v-permission` 指令来进行权限控制。
 
 ```html
-<script setup lang="ts">
+<script
+  setup
+  lang="ts"
+>
   import { vPermission, usePermission } from '@vue-spark/permission'
 
   const permission = usePermission()
@@ -103,7 +116,10 @@ interface Permission {
 ### usePermission 或 $permission
 
 ```html
-<script setup lang="ts">
+<script
+  setup
+  lang="ts"
+>
   import { usePermission } from '@vue-spark/permission'
 
   const permission = usePermission()

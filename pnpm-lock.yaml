@@ -7,6 +7,10 @@ settings:
 importers:
 
   .:
+    dependencies:
+      '@vue-spark/app-helpers':
+        specifier: ^0.1.0
+        version: 0.1.0(vue@3.5.16(typescript@5.8.3))
     devDependencies:
       '@antfu/eslint-config':
         specifier: ^4.14.1
@@ -853,6 +857,15 @@ packages:
 
   '@vitest/utils@3.2.3':
     resolution: {integrity: sha512-4zFBCU5Pf+4Z6v+rwnZ1HU1yzOKKvDkMXZrymE2PBlbjKJRlrOxbvpfPSvJTGRIwGoahaOGvp+kbCoxifhzJ1Q==}
+
+  '@vue-spark/app-helpers@0.1.0':
+    resolution: {integrity: sha512-IKMR0D5rj2vlvwYGp5l34+tlPB9+107Wcu8dZVbwshH2abytbG96SLM/Nhu64M+dYEDGUTIrhXEznYblvYXCkw==}
+    peerDependencies:
+      vue: ^3.5.0
+      vue-router: ^4.5.0
+    peerDependenciesMeta:
+      vue-router:
+        optional: true
 
   '@vue/compiler-core@3.5.16':
     resolution: {integrity: sha512-AOQS2eaQOaaZQoL1u+2rCJIKDruNXVBZSiUD3chnUrsoX5ZTQMaCvXlWNIfxBJuU15r1o7+mpo5223KVtIhAgQ==}
@@ -3030,6 +3043,10 @@ snapshots:
       '@vitest/pretty-format': 3.2.3
       loupe: 3.1.4
       tinyrainbow: 2.0.0
+
+  '@vue-spark/app-helpers@0.1.0(vue@3.5.16(typescript@5.8.3))':
+    dependencies:
+      vue: 3.5.16(typescript@5.8.3)
 
   '@vue/compiler-core@3.5.16':
     dependencies:

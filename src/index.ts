@@ -1,4 +1,1 @@
-export * from './component'
-export * from './core'
-export * from './directive'
-export * from './injection'
+export * from '@vue-spark/app-helpers/permission'
