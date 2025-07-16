@@ -1,7 +1,7 @@
 {
   "name": "@vue-spark/permission",
   "type": "module",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "packageManager": "pnpm@10.11.0",
   "description": "Lightweight Vue permission management plugin for component-level access control.",
   "author": "leihaohao <https://github.com/l246804>",
