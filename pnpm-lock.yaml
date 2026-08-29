@@ -18,9 +18,9 @@ importers:
       '@sxzz/prettier-config':
         specifier: ^2.2.3
         version: 2.2.3
-      '@tsconfig/node22':
-        specifier: ^22.0.2
-        version: 22.0.2
+      '@tsconfig/node24':
+        specifier: ^24.0.0
+        version: 24.0.5
       '@types/node':
         specifier: ^22.15.17
         version: 22.15.32
@@ -722,8 +722,8 @@ packages:
   '@sxzz/prettier-config@2.2.3':
     resolution: {integrity: sha512-J7pmxgW21XYjCRWD+yFjrgnBJPQOXFwSIMQtgZgixfmNS2K9cI7LBEpQwkU43AvYj0eJrm3JvZ6goXLSMGqq1A==}
 
-  '@tsconfig/node22@22.0.2':
-    resolution: {integrity: sha512-Kmwj4u8sDRDrMYRoN9FDEcXD8UpBSaPQQ24Gz+Gamqfm7xxn+GBR7ge/Z7pK8OXNGyUzbSwJj+TH6B+DS/epyA==}
+  '@tsconfig/node24@24.0.5':
+    resolution: {integrity: sha512-DWC54fGPuhZgg3Ighg4Y/A/bA3ZdB5hnzAuv/MkQ/X85sVsBsMQxu8t7khutdYeiNksBbFdDyeqv1HSW2Zl8aA==}
 
   '@tybys/wasm-util@0.9.0':
     resolution: {integrity: sha512-6+7nlbMVX/PVDCwaIQ8nTOPveOcFLSt8GcXdx8hD0bt39uWxYT88uXzqTd4fTvqta7oeUJqudepapKNt2DYJFw==}
@@ -1355,6 +1355,7 @@ packages:
   eslint@9.29.0:
     resolution: {integrity: sha512-GsGizj2Y1rCWDu6XoEekL3RLilp0voSePurjZIkxL3wlm5o5EC9VpgaP7lrCvjnkuLvzFBQWB3vWB3K5KQTveQ==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+    deprecated: This version is no longer supported. Please see https://eslint.org/version-support for other options.
     hasBin: true
     peerDependencies:
       jiti: '*'
@@ -2865,7 +2866,7 @@ snapshots:
     dependencies:
       '@prettier/plugin-oxc': 0.0.4
 
-  '@tsconfig/node22@22.0.2': {}
+  '@tsconfig/node24@24.0.5': {}
 
   '@tybys/wasm-util@0.9.0':
     dependencies:
